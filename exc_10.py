@@ -28,6 +28,7 @@ def ponto():
     while True:
 
         salvar_aleatorio = aleatorio()
+        
         input(f'Vc tirou {salvar_aleatorio},clique para continuar')
         if salvar_aleatorio in lista_ponto:
             print ('Vc fez um ponto vc ganhou!')
